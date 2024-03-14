@@ -1,0 +1,430 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    border: 0px;
+}
+
+body{   
+    background-color:  #0e0e0f;
+}
+
+header{
+    color: white;
+    background-color: black;
+    height: auto;
+    
+    padding: 0px 0px 20px 0px;
+    
+    
+    
+}
+
+
+header > article {
+    background-color: black;
+    margin: 0px;
+    padding: 10px;
+    border-bottom: 2px solid #202020;
+    
+    
+    
+}
+
+header > article > a{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 5px;
+    
+}
+
+
+header > article > a:hover{
+    color: #88898b;
+    
+}
+
+
+header > h1{
+    text-align: center;
+    
+}
+
+header > h2{
+    text-align: center;
+    margin: 0px;
+    padding: 0px 50px;
+    font-size: 16px;
+}
+
+
+header > h2 > a{
+    background-color: rgb(39, 39, 39);
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+}
+
+header > h2 > a:hover{
+    text-decoration:  5px white;
+    
+    color: #88898b;
+}
+
+.buscar{
+    background-color: #88898b;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    padding: 10px;
+}
+
+
+header > h2 > button{
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+    border: none;
+    width: 35px;
+    height: 35px;   
+    margin: 0px;
+}
+
+header > h2 > button:hover{
+    background-color: rgb(20, 20, 20);
+    
+}
+
+header > h2 > button#car{
+    background-color: rgb(39, 39, 39);
+    border-radius: 5px;
+    border: none;
+    width: 200px;
+    height: 35px;   
+    margin: 10px;
+}
+
+header > h2 > button:hover#car{
+    background-color: rgb(20, 20, 20);
+    
+    
+}
+
+::placeholder{
+    color: rgba(0, 0, 0, 0.562);
+}
+
+
+main > div.sticker{
+    text-align: center;
+    background-image: url('sticker.jpeg');
+    height: 70px;
+    width: 99vw;
+    
+    
+}
+
+
+main{
+    
+    font-family: "Kanit", sans-serif;
+    background-color: #0e0e0f;   
+    
+}
+
+main > div.interativo > p.interativo {
+    text-align: center;
+    font-size: 25px;
+    color: white;
+    
+    background-color: #181818;
+}
+
+main > div.interativo > p > a > span{
+
+    width: 545px;
+    
+    margin: 10px 70px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: white;
+    
+}
+
+main > div.interativo > p > a > span:hover{
+    color: #88898b;
+
+}
+
+main > div.interativo > p > button{
+    background-color: #181818;
+    border: none;
+    color: white;
+    font-size: 20px;
+    display: inline-flex;
+    align-items: center;
+    
+}
+
+main > div.interativo > p > button:hover{
+    color: #88898b;
+}
+
+main > div.anuncio > article {
+    background-image: url('Imagens/banner_tenis_preto.jpeg');
+    height: 500px;
+    width: 1000px;
+    
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+    
+}
+
+h2.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    width: 1000px;
+    margin: auto;
+
+    font-family: "Kanit", sans-serif;
+    font-size: 40px;
+    font-weight: 800;
+    color: #181818;
+    
+
+}
+
+p.rodape > a {
+    color: black;
+}
+
+p.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    background-color: white;
+    width: 1000px; 
+    margin: auto;
+    padding-bottom: 5px;
+    border-radius: 0px 0px 10px 10px;
+    text-align: center;
+    
+
+    
+}
+
+main > div.ofertas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    color: white;
+    margin: 30px;
+    width: 98%;
+}
+
+main > div.ofertas > div.tenis{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    
+    
+
+}
+
+.img{
+    width: 300px;
+    height: 250px;
+}
+
+main > div.ofertas > div.tenis > a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+
+}
+
+main > div.ofertas > div.tenis > a >p.cortado{
+    text-decoration: line-through;
+
+}
+
+
+main > div.ofertas > article {
+    background-image: url('Imagens/nikerun.webp');
+    height: 500px;
+    width: 1000px;
+    
+    background-position: center center;
+    background-size: cover;
+    margin: auto;
+}
+
+main > div.ofertas > p{
+    color: black;
+    
+}
+
+main > div.ofertas > div.botao > a > input{
+    width: 200px;
+    height: 40px;
+    margin: 20px;
+
+    font-family: "Kanit", sans-serif;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+    
+}
+
+main > div.ofertas > div.botao > a > input:hover{
+    background-color: #181818;
+    color: white;
+    cursor: pointer;
+}
+
+main > div.ofertas > div.tenis2{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr; 
+    gap: 10px; 
+    
+    
+    
+    
+}
+
+.mover{
+    display: inline-block;
+    margin: 10px;
+}
+
+.seta{
+    font-size: 30px;
+
+    width: 200px;
+    
+    margin: 20px;
+
+    font-family: "Kanit", sans-serif;
+    border-radius: 50px;
+    background-color: white;
+    color: black;
+    transition: 0.5s;
+}
+
+.seta:hover{
+    background-color: #181818;
+    color: white;
+    cursor: pointer;
+}
+
+main > div.ofertas > div.tenis2 > a{
+    color: black;
+    text-decoration: none;
+    background-color: white;
+    padding: 10px;
+    
+
+}
+
+main > div.ofertas > div.tenis2 > a >p.cortado{
+    text-decoration: line-through;
+
+}
+
+#item4{
+    display: none;
+    
+}
+
+section{
+    margin-left: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+
+.buscados{
+    text-align: left;
+    margin-right: 30px;
+    
+    
+}
+
+.destaques{
+    display: flex;
+    color: rgba(255, 255, 255, 0.329);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+    
+}
+
+.destaques:hover{
+    color: white;
+}
+
+.titulofinal{
+    font-family: "Kanit", sans-serif;
+    color: rgba(255, 255, 255, 0.575);
+    text-align: center;
+}
+
+section > article > h2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.329);
+    margin: 10px 0px;
+}
+section > article > h3{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgba(255, 255, 255, 0.575);
+    margin-top: 20px;
+}
+
+.linkedin{
+    height: 54px;
+    position: fixed;
+    top: 89%;
+    right: 10px;
+}
+.instagram{
+    height: 38px;
+    position: fixed;
+    top: 90%;
+    right: 64px;
+}
+
+.zap{
+    height: 38px;
+    position: fixed;
+    top: 90%;
+    right: 109px;
+}
+
+footer{
+    color: white;
+    background-color: black;
+    margin: 0px;
+    margin-top: 10px;
+    padding: 10px;
+    height: 30px;
+    
+}
+
