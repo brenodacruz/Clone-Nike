@@ -424,7 +424,159 @@ footer{
     margin: 0px;
     margin-top: 10px;
     padding: 10px;
-    height: 30px;
+    height: 100%;
     
 }
 
+.menu-mobile , .btn-abrir{
+    display: none;
+}
+
+
+@media screen and (max-width: 1460px ){
+    .opcao{
+        display: none;
+    }
+
+    .menu-mobile , .btn-abrir{
+        display: block;
+    }
+
+    .interativo{
+        display: none;
+    }
+
+    .banner{
+        height: 500px !important;
+        width: 100% !important;
+    }
+    
+    .rodape{
+        width: 100% !important;
+    }
+    h2.rodape{
+        font-size: 32px;
+    }
+    div.tenis{
+        grid-template-columns: 1fr !important; /* Define uma coluna */
+        grid-template-rows: repeat(4, auto) !important; /* Define quatro linhas */
+        gap: 10px !important; /* Espaçamento entre os itens */
+    }
+
+    .ofertas{
+        margin: 30px 0px !important;
+        width: 100% !important;
+    }
+    main > div.ofertas > div.botao > a > input{
+        width: 200px;
+        height: 40px;
+        margin: 20px 10px;
+        
+    }
+    div.tenis2{
+        grid-template-columns: 1fr !important; /* Define uma coluna */
+        grid-template-rows: repeat(4, auto) !important; /* Define quatro linhas */
+        gap: 10px !important; /* Espaçamento entre os itens */
+    }
+
+    #item4{
+        display: block;
+    }
+
+    .seta{
+        display: none;
+    }
+
+    .sticker{
+        width: 100% !important;
+    }
+
+    .rs {
+        display: none;
+    }
+    
+    .menu-mobile{
+        display: flex;
+        flex-direction: column;
+
+        background-color: black;
+        height: 100vh;
+        position: fixed;
+        top: 0;
+        right: 0;
+        z-index: 99999;
+        width: 0%;
+        text-align: right;
+        transition: .5s;
+
+        overflow: hidden;
+
+    }
+    
+    .menu-mobile > nav > a{
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 20px;
+        font-weight: lighter;
+        color: white;
+        text-decoration: none;
+        padding: 20px 8%;
+        transition: all 0.3s ease;
+        
+    }
+
+    .menu-mobile > nav > a:hover{
+        background-color: white;
+        color: black;
+    }
+
+    .btn-fechar{
+        padding: 20px 4%;
+        text-align: left;
+    }
+    
+    .menu-mobile .btn-fechar i{
+        color: white;
+    }
+    
+    .btn-abrir{
+        text-align: center;
+    }
+    
+    #btn-menu:hover{
+        cursor: pointer;
+        transform: rotate(360deg);
+        transition: transform 0.5s ease; 
+    }
+    #btn-fechar:hover{
+        cursor: pointer;
+        transform: rotate(360deg);
+        transition: transform 0.5s ease; 
+    }
+    
+    .overlay-menu{
+        background-color: rgba(0, 0, 0, 0.644);
+        width: 100%;
+        height: 100%;
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 8888;
+        display: none;
+        
+    }
+    .itens-menu{
+        display: flex;
+        flex-direction: column;
+    }
+    .menu-mobile.abrir-menu{
+        width: 70%;
+    }
+    .menu-mobile.abrir-menu ~ .overlay-menu{
+        display: block;
+    }
+
+    header > article{
+        text-align: center;
+    }
+
+}
