@@ -447,16 +447,28 @@ footer{
     }
 
     .banner{
-        height: 500px !important;
-        width: 100% !important;
+        height: 300px !important;
+        width: 90% !important;
+        border-radius: 10px 10px 0px 0px;
+    }
+
+    .anuncio{
+        margin-top: 20px;
     }
     
     .rodape{
-        width: 100% !important;
+        width: 90% !important;
+        
     }
     h2.rodape{
-        font-size: 32px;
+        font-size: 27px;
     }
+    p.rodape{
+        font-size: 16px;
+    }
+
+
+
     div.tenis{
         grid-template-columns: 1fr !important; /* Define uma coluna */
         grid-template-rows: repeat(4, auto) !important; /* Define quatro linhas */
@@ -468,11 +480,16 @@ footer{
         width: 100% !important;
     }
     main > div.ofertas > div.botao > a > input{
-        width: 200px;
+        width: 160px;
         height: 40px;
-        margin: 20px 10px;
+        margin: 20px 5px;
         
     }
+
+    .produtosbuscados, .titulofinal{
+        display: none;
+    }
+
     div.tenis2{
         grid-template-columns: 1fr !important; /* Define uma coluna */
         grid-template-rows: repeat(4, auto) !important; /* Define quatro linhas */
@@ -576,7 +593,7 @@ footer{
     }
 
     header > article{
-        text-align: center;
+        text-align: center;       
     }
 
 }
